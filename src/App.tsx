@@ -11,7 +11,7 @@ const App: React.FC = () => {
     <Provider store={store}>
       <GlobalStyles />
       <div style={{ maxWidth: '800px', margin: '20px auto', padding: '20px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-        <h1 style={{ textAlign: 'center' }}>Lista de contatos em React</h1>
+        <h1 style={{ textAlign: 'center' }}>Lista de contatos do Bonifácio</h1>
         <SearchBar />
         <ContactForm />
         <ContactList />
